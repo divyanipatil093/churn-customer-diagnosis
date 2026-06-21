@@ -18,11 +18,10 @@ Most churn projects stop at "here's a model that predicts churn." This project g
 
 | Stage | Notebook | What it does |
 |---|---|---|
-| 1. Data Cleaning | `01_data_cleaning.ipynb` | Fixes a hidden data quality issue in `TotalCharges`, standardizes inconsistent encoding |
-| 2. EDA | `02_eda.ipynb` | Visualizes churn patterns across contract type, tenure, charges, and internet service |
-| 3. Hypothesis Testing | `03_hypothesis_testing.ipynb` | Proves 4 churn drivers statistically significant using Chi-square and t-tests (not just eyeballed) |
-| 4. Modeling | `04_modelling.ipynb` | Logistic Regression vs. Random Forest, compared on recall/F1 — not just accuracy |
-| 5. Business Impact | `05_business_impact.ipynb` | Converts churn probability into ₹ value, segments customers into an action matrix |
+| 1. Data Cleaning & EDA | `01_data_cleaning&EDA.ipynb` | Fixes a hidden data quality issue in `TotalCharges`, standardizes inconsistent encoding, and visualizes churn patterns across contract type, tenure, charges, and internet service |
+| 2. Hypothesis Testing | `02_hypothesis_testing.ipynb` | Proves 4 churn drivers statistically significant using Chi-square and t-tests (not just eyeballed) |
+| 3. Modeling | `03_modelling.ipynb` | Logistic Regression vs. Random Forest, compared on recall/F1 — not just accuracy |
+| 4. Business Impact | `04_business_impact.ipynb` | Converts churn probability into ₹ value, segments customers into an action matrix |
 | App | `app.py` | Interactive Streamlit tool — enter a customer's details, get a live prediction + recommendation |
 
 ---
