@@ -20,7 +20,7 @@ Telecom companies lose revenue when customers churn, but retention budgets are l
 
 | Stage               | Notebook/File                 | Description                                        |
 | ------------------- | ----------------------------- | -------------------------------------------------- |
-| Data Cleaning & EDA | `01_data_cleaning_EDA.ipynb`  | Cleaned data issues and analyzed churn patterns    |
+| Data Cleaning & EDA | `01_data_cleaning&EDA.ipynb`  | Cleaned data issues and analyzed churn patterns    |
 | Hypothesis Testing  | `02_hypothesis_testing.ipynb` | Used statistical tests to validate churn drivers   |
 | Modeling            | `03_modelling.ipynb`          | Built Logistic Regression and Random Forest models |
 | Business Impact     | `04_business_impact.ipynb`    | Converted churn predictions into business actions  |
