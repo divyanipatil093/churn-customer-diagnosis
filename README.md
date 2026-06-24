@@ -92,7 +92,19 @@ churn-customer-diagnosis/
 ├── requirements.txt
 └── README.md
 ```
+---
+## 🚀 Live Deployed Project
 
+This project is deployed using Streamlit Cloud and is fully interactive.
+
+👉 Access the live application here:  
+https://churn-customer-diagnosis-d7b9f8cqomgkqzt2nm7khm.streamlit.app/
+
+📌 Features:
+- Real-time churn prediction
+- Risk segmentation (High / Medium / Low)
+- Business recommendation engine
+- Interactive customer input dashboard
 ---
 
 ## How to Run
